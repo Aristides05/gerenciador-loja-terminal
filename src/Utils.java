@@ -12,6 +12,5 @@ public class Utils {
     public void cls() throws IOException, InterruptedException {
         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
     }
-
 }
 
