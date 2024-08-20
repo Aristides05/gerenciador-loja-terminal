@@ -1,10 +1,8 @@
-public class FluxoCaixa {
-    public FluxoCaixa(){};
-    
-    public void fluxoCaixa(){
-        LayoutMenus menu = new LayoutMenus();
-    
-        menu.fluxoCaixa();
+public class FluxoCaixa implements Menu {
+
+    @Override
+    public void displayMenuOptions() {
+        DisplayUtils.escritaLayouts("menu estoque");
     }
-    
+
 }
