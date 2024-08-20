@@ -1,9 +1,8 @@
-public class GerenciamentoEstoque {
-    public GerenciamentoEstoque(){};
+public class GerenciamentoEstoque implements Menu {
 
-    public void estoque(){
-        LayoutMenus menu = new LayoutMenus();
-
-        menu.menuEstoque();
+    @Override
+    public void displayMenuOptions() {
+        DisplayUtils.escritaLayouts("menu estoque");
     }
+
 }
